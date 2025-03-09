@@ -1,0 +1,36 @@
+:root{
+  --color1:aqua;
+  --color2:pink;
+  --color3:red;
+}
+
+svg{
+  width: 30vw;
+}
+
+.progressInput {
+  width: 30vw;
+  margin-top: 30px;
+  height: 7px;
+  --webkit-appearance: none;
+  background-image: linear-gradient(to right, var(--color1), var(--color2), var(--color3));
+}
+
+.circle-background {
+  fill:none;
+  stroke: white;
+}
+
+.circle-progress {
+  fill: none;
+  /* stroke: var(--color1); */
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+}
+
+.circle-text {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
